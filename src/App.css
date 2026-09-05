@@ -1,0 +1,33 @@
+.header-menu {
+    height: 100px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.menu-area nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu-area .menutab {
+    text-decoration: none;
+    color: #000;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 90px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.top-right .btn {
+    background: #9FA0A8;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #5C7852, #9FA0A8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #5C7852, #9FA0A8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    color: #000;
+    font-weight: 500;
+    padding: 8px 25px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    margin-right: 15px;
+}
