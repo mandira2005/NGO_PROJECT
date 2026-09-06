@@ -18,11 +18,11 @@ const MenuBar = () => {
                             <center>
                                 <nav>
                                     <ul>
-                                        <li><NavLink to={'/'} className={'menutab'}>Home</NavLink></li>
+                                        <li><NavLink to={'/Home'} className={'menutab'}>Home</NavLink></li>
                                         <li><NavLink to={'/'} className={'menutab'}>About us</NavLink></li>
-                                        <li><NavLink to={'/'} className={'menutab'}>Events</NavLink></li>
-                                        <li><NavLink to={'/'} className={'menutab'}>Gallery</NavLink></li>
-                                        <li><NavLink to={'/'} className={'menutab'}>Travels</NavLink></li>
+                                        <li><NavLink to={'/'} className={'menutab'}>HOW IT WORKS</NavLink></li>
+                                        <li><NavLink to={'/'} className={'menutab'}>FIND FOOD</NavLink></li>
+                                        <li><NavLink to={'/'} className={'menutab'}>GET INVOLVED</NavLink></li>
                                     </ul>
                                 </nav>
                             </center>

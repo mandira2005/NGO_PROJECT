@@ -1,10 +1,13 @@
 import React from "react";
-import NavBar from "./Navbar";
+import Menubar from './Menubar'
+import Slide from './Slider';
+import Home from './Homepage'
 
 const Call = () => {
     return (
         <>
-            <NavBar/>
+            <MenuBar/>
+            <Slide/>
         </>
     )
 }
