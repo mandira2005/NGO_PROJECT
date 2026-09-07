@@ -1,13 +1,11 @@
 import React from "react";
-import Menubar from './Menubar'
-// import Slide from './Slider';
-// import Home from './Homepage'
+import MenuBar from './Menubar'
+
 
 const Call = () => {
     return (
         <>
             <MenuBar/>
-            {/* <Slide/> */}
         </>
     )
 }
