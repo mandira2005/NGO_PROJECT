@@ -1,6 +1,7 @@
 import React from "react";
 import MenuBar from './Menubar'
 import Slide from "./Slider";
+import Home from "./Homepage";
 
 
 const Call = () => {
@@ -8,6 +9,7 @@ const Call = () => {
         <>
             <MenuBar/>
             <Slide/>
+            <Home/>
         </>
     )
 }

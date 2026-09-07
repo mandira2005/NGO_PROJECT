@@ -14,13 +14,13 @@ const Slide = () => {
                         <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
-                                    <img src={mmm} className="d-block w-100" alt="..."width={'100%'} height={'500px'}/>
+                                    <img src={mmm} className="d-block w-100" alt="..."width={'100%'} height={'450px'}/>
                                 </div>
                                 <div className="carousel-item">
-                                    <img src={sss} className="d-block w-100" alt="..."width={'100%'} height={'500px'}/>
+                                    <img src={sss} className="d-block w-100" alt="..."width={'100%'} height={'450px'}/>
                                 </div>
                                 <div className="carousel-item">
-                                    <img src={sm} className="d-block w-100" alt="..." width={'100%'} height={'500px'}/>
+                                    <img src={sm} className="d-block w-100" alt="..." width={'100%'} height={'450px'}/>
                                 </div>
                             </div>
                             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">

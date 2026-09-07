@@ -8,29 +8,30 @@ const MenuBar = () => {
         <>
              <div className="container-fluid header-menu">
                 <div className="row">
-                    <div className="col-md-1 col-lg-1 col-sm-12">
+                    <div className="col-md-2 col-lg-2 col-sm-12">
                         <div className="logo mt-2">
                             <img src={Logo} alt='Logo' height={"70px"} width={"90px"} />
                         </div>
                     </div>
                     <div className="col-md-8 col-lg-8 col-sm-12">
                         <div className="menu-area">
-                            <center>
+                            {/* <center> */}
                                 <nav>
                                     <ul>
-                                        <li><NavLink to={'/Home'} className={'menutab'}>Home</NavLink></li>
+                                        <li><NavLink to={'/'} className={'menutab'}>Home</NavLink></li>
                                         <li><NavLink to={'/'} className={'menutab'}>About us</NavLink></li>
+                                        <li><NavLink to={'/'} className={'menutab'}>Our work</NavLink></li>
                                         <li><NavLink to={'/'} className={'menutab'}>HOW IT WORKS</NavLink></li>
-                                        <li><NavLink to={'/'} className={'menutab'}>FIND FOOD</NavLink></li>
+                                        <li><NavLink to={'/'} className={'menutab'}>Impact</NavLink></li>
                                         <li><NavLink to={'/'} className={'menutab'}>GET INVOLVED</NavLink></li>
+                                        <li><NavLink to={'/'} className={'menutab'}>Contact us</NavLink></li>
                                     </ul>
                                 </nav>
-                            </center>
+                            {/* </center> */}
                         </div>
                     </div>
-                    <div className="col-md-3 col-lg-3 col-sm-12 top-right">
-                            <button className="btn btn">Register</button>
-                            <button className="btn btn">Log in</button>
+                    <div className="col-md-2 col-lg-2 col-sm-12 top-right">
+                            <button className="btn btn">Donate <i class="fa-regular fa-heart"></i></button>
                     </div>
                 </div>
             </div>
