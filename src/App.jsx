@@ -3,6 +3,7 @@ import './App.css'
 // import MenuBar from './Component/Menubar'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Call from'./Component/Calling'
+import Home from './Component/Homepage'
 
 
 
@@ -15,7 +16,7 @@ function App() {
 
         <Routes>
           <Route path='/' element={<Call/>}></Route>
-          {/* <Route path='/Home' element={<Home/>}></Route> */}
+          <Route path='/Home' element={<Home/>}></Route>
         </Routes>
       </Router>
 
