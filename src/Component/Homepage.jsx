@@ -1,12 +1,12 @@
 import react from 'react'
-import Menubar from './Menubar'
+import MenuBar from './Menubar'
 
 
 const Home= () =>  {
     return(
         <> 
-        <Menubar/>
-        <h2> ngo</h2>
+            <MenuBar/>
+            <h2>ngo</h2>
         </>
     )
 }
