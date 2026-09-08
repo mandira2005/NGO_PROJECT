@@ -50,7 +50,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="container-fluid">
+            <div className="container-fluid descrip">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-4 col-lg-4 col-sm-12 Ft">
@@ -77,6 +77,34 @@ const Home = () => {
                             <i className="fa-brands fa-pagelines icn4"></i>
                             <h1>3+</h1>
                             <h2>Communities Supported</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h5>How it Works</h5>
+            <h4>From Surplus to Support</h4>
+            <div className="container-fluid">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-3 col-lg-3 col-sm-12 Fst">
+                            <i class="fa-solid fa-shop i1"></i>
+                            <h1>1. Collect</h1>
+                            <h2>We collect surplus food from local business, stores and farms.</h2>
+                        </div>
+                        <div className="col-md-3 col-lg-3 col-sm-12 Snd">
+                            <i class="fa-regular fa-truck i2"></i>
+                            <h1>2. Sort & Ensure Safety</h1>
+                            <h2>Food is checked, sorted, and made safe for consumption</h2>
+                        </div>
+                        <div className="col-md-3 col-lg-3 col-sm-12 Trd">
+                            <i class="fa-solid fa-users-between-lines i3"></i>
+                            <h1>3. Distribute</h1>
+                            <h2>We deliver the food to NGOs, shelters and communities in need.</h2>
+                        </div>
+                        <div className="col-md-3 col-lg-3 col-sm-12 Frt">
+                            <i className="fa-brands fa-envira i4"></i>
+                            <h1>4. Create Impact</h1>
+                            <h2>Less food waste, healthier communities and a greener planet.</h2>
                         </div>
                     </div>
                 </div>
