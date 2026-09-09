@@ -65,7 +65,7 @@ const Home = () => {
                         </div>
                         <div className="col-md-2 col-lg-2 col-sm-12 Td">
                             <i className="fa-solid fa-users icn2"></i>
-                            <h1>8+</h1>
+                            <h1>4+</h1>
                             <h2>Partner Organisations</h2>
                         </div>
                         <div className="col-md-2 col-lg-2 col-sm-12 Frth">
@@ -86,10 +86,10 @@ const Home = () => {
             <div className="container-fluid">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-3 col-lg-3 col-sm-12 Fst">
+                        <div className="col-md-3 col-lg-3 col-sm-12 Snd">
                             <i class="fa-solid fa-shop i1"></i>
                             <h1>1. Collect</h1>
-                            <h2>We collect surplus food from local business, stores and farms.</h2>
+                            <h2>We collect surplus food from local business,<br/> stores and farms.</h2>
                         </div>
                         <div className="col-md-3 col-lg-3 col-sm-12 Snd">
                             <i class="fa-regular fa-truck i2"></i>
@@ -107,6 +107,16 @@ const Home = () => {
                             <h2>Less food waste, healthier communities and a greener planet.</h2>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <div className="container back">
+                <div className="col-md-12 col-lg-12 col-sm-12 txt1">
+                    <h1>Be a part of the change</h1>
+                    <h2>Together We Can End Food Waste</h2>
+                    <p>Support our mission by donating, volunteering or spreading the word.</p>
+                    <button className="btn btn"><i class="fa-regular fa-heart"></i> Donate Now</button>
+                    <button className="btn btn">Get involved <i className="fa-solid fa-arrow-right icn"></i></button>
                 </div>
             </div>
         </>
