@@ -15,19 +15,18 @@ const MenuBar = () => {
                     </div>
                     <div className="col-md-8 col-lg-8 col-sm-12">
                         <div className="menu-area">
-                            {/* <center> */}
+                            <center>
                                 <nav>
                                     <ul>
                                         <li><NavLink to={'/'} className={'menutab'}>Home</NavLink></li>
                                         <li><NavLink to={'/'} className={'menutab'}>About us</NavLink></li>
-                                        <li><NavLink to={'/'} className={'menutab'}>Our work</NavLink></li>
                                         <li><NavLink to={'/'} className={'menutab'}>HOW IT WORKS</NavLink></li>
-                                        <li><NavLink to={'/'} className={'menutab'}>Impact</NavLink></li>
+                                        <li><NavLink to={'/Impact'} className={'menutab'}>Impact</NavLink></li>
                                         <li><NavLink to={'/'} className={'menutab'}>GET INVOLVED</NavLink></li>
-                                        <li><NavLink to={'/'} className={'menutab'}>Contact us</NavLink></li>
+                                        <li><NavLink to={'/Contact'} className={'menutab'}>Contact us</NavLink></li>
                                     </ul>
                                 </nav>
-                            {/* </center> */}
+                            </center>
                         </div>
                     </div>
                     <div className="col-md-2 col-lg-2 col-sm-12 top-right">

@@ -5,7 +5,7 @@ import img from '../assets/img1.jpeg'
 const Home = () => {
     return (
         <>
-            <div className="container-fluid descrip-tion">
+            <div className="container-fluid descrip">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-3 col-lg-3 col-sm-12 First1">
@@ -129,6 +129,9 @@ const Home = () => {
                     <button className="btn btn">Get involved <i className="fa-solid fa-arrow-right icn"></i></button>
                 </div>
             </div>
+
+
+            
         </>
     )
 }

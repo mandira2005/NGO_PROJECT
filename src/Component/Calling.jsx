@@ -4,12 +4,15 @@ import Slide from "./Slider";
 import Home from "./Homepage";
 
 
+
+
 const Call = () => {
     return (
         <>
             <MenuBar/>
             <Slide/>
             <Home/>
+        
         </>
     )
 }
